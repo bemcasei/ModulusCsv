@@ -1,0 +1,34 @@
+{
+  "name": "bemcasei/modulus-csv",
+  "description": "ZF3 Module export and import CSV files.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "William Hoffmann",
+      "email": "williamhoffmann@outlook.com",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/bemcasei/ModulusCsv",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.0",
+    "zendframework/zend-http": "^2.8",
+    "zendframework/zend-mvc": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ModulusCsv\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ModulusCsvTest\\": "test/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

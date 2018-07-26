@@ -1,0 +1,13 @@
+# Editors, IDEs
+nbproject
+.buildpath
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Composer related
+vendor/
+composer.lock
+
+# Tests
+phpunit.xml
