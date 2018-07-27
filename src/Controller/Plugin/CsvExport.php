@@ -5,6 +5,13 @@ namespace ModulusCsv\Controller\Plugin;
 use Zend\Http\PhpEnvironment\Response as HttpResponse;
 use Zend\Mvc\Controller\Plugin\AbstractPlugin;
 
+/**
+ * CsvExport
+ *
+ * @category ModulusCsv
+ * @package ModulusCsv\Controller\Plugin
+ * @author BemCasei <contato@bemcasei.com.br>
+ */
 class CsvExport extends AbstractPlugin
 {
     /**
