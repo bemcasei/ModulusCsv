@@ -110,7 +110,7 @@ class CsvExport extends AbstractPlugin
     public function setContent($content, callable $callback = null)
     {
         $this->content  = $content;
-        $this->callback = $content;
+        $this->callback = $callback;
 
         return $this;
     }

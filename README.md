@@ -5,7 +5,7 @@ Export and import CSV files.
 ## Installation
 
 ```sh
-php composer require bemcasei/modulus-csv
+composer require bemcasei/modulus-csv
 ```
 
 ### Enable module 
